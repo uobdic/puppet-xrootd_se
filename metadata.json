@@ -4,7 +4,7 @@
   "author": "kreczko@cern.ch",
   "summary": "Module to install and configure an XrootD Storage Element",
   "license": "Apache-2.0",
-  "source": "",
+  "source": "https://github.com/uobdic/puppet-xrootd_se",
   "dependencies": [
 
   ],
