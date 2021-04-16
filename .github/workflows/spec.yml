@@ -20,7 +20,10 @@ jobs:
     strategy:
       matrix:
         ruby-version: ['2.6', '2.7']
-        puppet_version: ['~>5.0', '~>6.0']
+        puppet_version: ['~>6.0', '~>7.0']
+        include:
+          - ruby-version: '2.6'
+            puppet_version: '~>5.0'
 
     steps:
     - uses: actions/checkout@v2
